@@ -11,7 +11,7 @@ let gameOver = false
 function main(currentTime){
     if (gameOver) {
         if (confirm("You Lost. Press OK to restart")) {
-            window.location = "https://github.com/jdc141/Snake-Game"
+            window.location = "https://jdc141.github.io/Snake-Game/"
         }
         return
     }
